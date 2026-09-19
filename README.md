@@ -1,10 +1,10 @@
 # Cocoa / AppKit - No Storyboard
-## Simple macOS apps using Appkit wihtout Storyboard
+## Simple macOS apps using Appkit without Storyboard
 
 Some sample projects in the era of SwiftUI.
 
 Many of the codes are taken/modified from [Swiftyn](https://www.swiftyn.com)
 
-1. [Hello, World]() - Simple NSWindow, NSView and NSToolbar programatically
-2. [NSTableView]() - Simple NSScrollView and NSTableView programatically
+1. [HelloWorld](https://github.com/kicsipixel/AppKit-NoStoryboard/tree/main/HelloWorld) - Simple NSWindow, NSView and NSToolbar programatically
+2. [NSTableView](https://github.com/kicsipixel/AppKit-NoStoryboard/tree/main/TableView) - Simple NSScrollView and NSTableView programatically
 3. [NSSplitView]() - NSSplitView - Sidebar and Details programatically
