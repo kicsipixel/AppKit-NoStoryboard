@@ -55,7 +55,8 @@ class DetailsViewController: NSViewController {
     }
 
     private func updateLabel() {
-        label.stringValue = "Hello, \(model.selectedName.count == 0 ? "World" : model.selectedName)!"
+        label.stringValue =
+            "Hello, \(model.selectedName.count == 0 ? "World" : model.selectedName)!"
         label.sizeToFit()
     }
 
