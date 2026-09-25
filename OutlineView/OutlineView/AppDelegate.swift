@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  HelloWorld
+//  OutlineView
 //
 //  Created by Szabolcs Tóth on 17.09.2026.
 //

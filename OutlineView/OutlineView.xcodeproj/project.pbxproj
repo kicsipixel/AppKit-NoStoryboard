@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		57EAB3D3305C70730047A212 /* NoStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57EAB3D3305C70730047A212 /* OutlineView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutlineView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		57EAB3D5305C70730047A212 /* HelloWorld */ = {
+		57EAB3D5305C70730047A212 /* OutlineView */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HelloWorld;
+			path = OutlineView;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -30,7 +30,7 @@
 		57EAB3CA305C70730047A212 = {
 			isa = PBXGroup;
 			children = (
-				57EAB3D5305C70730047A212 /* HelloWorld */,
+				57EAB3D5305C70730047A212 /* OutlineView */,
 				57EAB3D4305C70730047A212 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,7 +38,7 @@
 		57EAB3D4305C70730047A212 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57EAB3D3305C70730047A212 /* NoStoryboard.app */,
+				57EAB3D3305C70730047A212 /* OutlineView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,9 +46,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		57EAB3D2305C70730047A212 /* NoStoryboard */ = {
+		57EAB3D2305C70730047A212 /* OutlineView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57EAB3E1305C70740047A212 /* Build configuration list for PBXNativeTarget "NoStoryboard" */;
+			buildConfigurationList = 57EAB3E1305C70740047A212 /* Build configuration list for PBXNativeTarget "OutlineView" */;
 			buildPhases = (
 				57EAB3CF305C70730047A212 /* Sources */,
 				57EAB3D0305C70730047A212 /* Frameworks */,
@@ -57,11 +57,11 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				57EAB3D5305C70730047A212 /* HelloWorld */,
+				57EAB3D5305C70730047A212 /* OutlineView */,
 			);
-			name = NoStoryboard;
+			name = OutlineView;
 			productName = NoStoryboard;
-			productReference = 57EAB3D3305C70730047A212 /* NoStoryboard.app */;
+			productReference = 57EAB3D3305C70730047A212 /* OutlineView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -79,7 +79,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 57EAB3CE305C70730047A212 /* Build configuration list for PBXProject "Outl" */;
+			buildConfigurationList = 57EAB3CE305C70730047A212 /* Build configuration list for PBXProject "OutlineView" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -93,7 +93,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				57EAB3D2305C70730047A212 /* NoStoryboard */,
+				57EAB3D2305C70730047A212 /* OutlineView */,
 			);
 		};
 /* End PBXProject section */
@@ -115,7 +115,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		57EAB3DF305C70740047A212 /* Debug configuration for PBXProject "Outl" */ = {
+		57EAB3DF305C70740047A212 /* Debug configuration for PBXProject "OutlineView" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,7 +179,7 @@
 			};
 			name = Debug;
 		};
-		57EAB3E0305C70740047A212 /* Release configuration for PBXProject "Outl" */ = {
+		57EAB3E0305C70740047A212 /* Release configuration for PBXProject "OutlineView" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +235,7 @@
 			};
 			name = Release;
 		};
-		57EAB3E2305C70740047A212 /* Debug configuration for PBXNativeTarget "NoStoryboard" */ = {
+		57EAB3E2305C70740047A212 /* Debug configuration for PBXNativeTarget "OutlineView" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -269,7 +269,7 @@
 			};
 			name = Debug;
 		};
-		57EAB3E3305C70740047A212 /* Release configuration for PBXNativeTarget "NoStoryboard" */ = {
+		57EAB3E3305C70740047A212 /* Release configuration for PBXNativeTarget "OutlineView" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -306,19 +306,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		57EAB3CE305C70730047A212 /* Build configuration list for PBXProject "Outl" */ = {
+		57EAB3CE305C70730047A212 /* Build configuration list for PBXProject "OutlineView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57EAB3DF305C70740047A212 /* Debug configuration for PBXProject "Outl" */,
-				57EAB3E0305C70740047A212 /* Release configuration for PBXProject "Outl" */,
+				57EAB3DF305C70740047A212 /* Debug configuration for PBXProject "OutlineView" */,
+				57EAB3E0305C70740047A212 /* Release configuration for PBXProject "OutlineView" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		57EAB3E1305C70740047A212 /* Build configuration list for PBXNativeTarget "NoStoryboard" */ = {
+		57EAB3E1305C70740047A212 /* Build configuration list for PBXNativeTarget "OutlineView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57EAB3E2305C70740047A212 /* Debug configuration for PBXNativeTarget "NoStoryboard" */,
-				57EAB3E3305C70740047A212 /* Release configuration for PBXNativeTarget "NoStoryboard" */,
+				57EAB3E2305C70740047A212 /* Debug configuration for PBXNativeTarget "OutlineView" */,
+				57EAB3E3305C70740047A212 /* Release configuration for PBXNativeTarget "OutlineView" */,
 			);
 			defaultConfigurationName = Release;
 		};

@@ -1,6 +1,6 @@
 //
 //  MainWindowController.swift
-//  HelloWorld
+//  OutlineView
 //
 //  Created by Szabolcs Tóth on 17.09.2026.
 //
@@ -23,9 +23,9 @@ class MainWindowController: NSWindowController {
             backing: .buffered,
             defer: true
         )
-        window.title = "HelloWorld"
+        window.title = "OutlineView"
         window.titlebarAppearsTransparent = true
-        window.contentViewController = MainViewController()
+        window.contentViewController = MainOutlineViewController()
         window.setContentSize(contentSize)
         self.window = window
     }
