@@ -1,6 +1,6 @@
 //
 //  MainWindowController.swift
-//  NoStoryboard
+//  TableView
 //
 //  Created by Szabolcs Tóth on 17.09.2026.
 //
