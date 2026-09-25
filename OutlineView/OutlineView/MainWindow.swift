@@ -1,6 +1,6 @@
 //
 //  MainWindow.swift
-//  SplitView
+//  HelloWorld
 //
 //  Created by Szabolcs Tóth on 17.09.2026.
 //

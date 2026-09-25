@@ -1,10 +1,9 @@
 //
 //  MainWindowController.swift
-//  SplitView
+//  HelloWorld
 //
 //  Created by Szabolcs Tóth on 17.09.2026.
 //
-
 
 import Cocoa
 
@@ -14,7 +13,6 @@ class MainWindowController: NSWindowController {
 
     convenience init() {
         self.init(windowNibName: "")
-        shouldCascadeWindows = false
     }
 
     override func loadWindow() {
@@ -25,9 +23,9 @@ class MainWindowController: NSWindowController {
             backing: .buffered,
             defer: true
         )
-        window.title = "SplitView"
+        window.title = "HelloWorld"
         window.titlebarAppearsTransparent = true
-        window.contentViewController = MainSplitViewController()
+        window.contentViewController = MainViewController()
         window.setContentSize(contentSize)
         self.window = window
     }

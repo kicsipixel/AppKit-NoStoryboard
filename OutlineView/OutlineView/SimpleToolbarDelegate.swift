@@ -1,6 +1,6 @@
 //
 //  SimpleToolbarDelegate.swift
-//  SplitView
+//  HelloWorld
 //
 //  Created by Szabolcs Tóth on 17.09.2026.
 //
@@ -11,15 +11,11 @@ final class SimpleToolbarDelegate: NSObject, NSToolbarDelegate {
 
     static let shareIdentifier = NSToolbarItem.Identifier("hu.purzelbaum.Share")
 
-    func toolbarDefaultItemIdentifiers(_ toolbar: NSToolbar) -> [NSToolbarItem
-        .Identifier]
-    {
+    func toolbarDefaultItemIdentifiers(_ toolbar: NSToolbar) -> [NSToolbarItem.Identifier] {
         [.flexibleSpace, Self.shareIdentifier]
     }
 
-    func toolbarAllowedItemIdentifiers(_ toolbar: NSToolbar) -> [NSToolbarItem
-        .Identifier]
-    {
+    func toolbarAllowedItemIdentifiers(_ toolbar: NSToolbar) -> [NSToolbarItem.Identifier] {
         toolbarDefaultItemIdentifiers(toolbar)
     }
 
