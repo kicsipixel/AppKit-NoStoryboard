@@ -1,22 +1,18 @@
-# NSTableView - No Storyboard
-## Simple macOS apps using Appkit without Storyboard
-
-An `NSTableView` with two columns. One column uses the `DefaultTableViewCell`.
-
-The other uses a custom `NSTableViewCell` with `NSImageView` and `NSTextfield`.
+# TableView - No Storyboard
+An `NSTableView` with two columns inside an `NSScrollView`, built without Storyboard.
 
 ![](nstableview.png)
 
-We need to implement the following two methods:
-- How many rows will we need - `NSTableViewDataSource`:
+## What's inside
+- `MyTableViewController` – creates the columns and the table, acts as data source and delegate
+- `DefaultTextCellView` – `NSTableCellView` with an `NSTextField` (Age column)
+- `TextCellViewWithImage` – `NSTableCellView` with an `NSImageView` and an `NSTextField` (Name column)
+- `Person` – model with test data
 
-`numberOfRows(in tableView: NSTableView) -> Int`
+## Key points
+- `NSTableViewDataSource` – how many rows: `numberOfRows(in:)`
+- `NSTableViewDelegate` – what each cell shows: `tableView(_:viewFor:row:)`
+- Selected row: `tableViewSelectionDidChange(_:)`
 
-- and what will be the values of the cells - `NSTableViewDelegate`:
-
-`tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView?`
-
-In case we are curious about the selected row:
-`tableViewSelectionDidChange(_ notification: Notification)`
-
-You can read about the topic in [details](https://www.swiftyn.com/learn/macos/mastering-nstableview-data-display-macos).
+## Read more
+[Mastering NSTableView](https://www.swiftyn.com/learn/macos/mastering-nstableview-data-display-macos)
